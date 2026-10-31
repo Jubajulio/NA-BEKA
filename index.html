@@ -47,10 +47,9 @@ footer{background:#101010;color:white;padding:34px 6%;text-align:center}footer p
 <script>
 const KEY='nabeka_products_v1', CART='nabeka_cart_v1', SETTINGS='nabeka_settings_v1';
 const seed=[
-{id:1,name:'Camiseta básica premium',category:'Camisetas',price:59.90,description:'Modelo demonstrativo. Cadastre suas fotos e informações.',image:'',active:true},
-{id:2,name:'Camiseta oversized',category:'Camisetas',price:79.90,description:'Modelo demonstrativo. Cadastre suas fotos e informações.',image:'',active:true},
-{id:3,name:'Bermuda casual',category:'Bermudas',price:69.90,description:'Modelo demonstrativo. Cadastre suas fotos e informações.',image:'',active:true},
-{id:4,name:'Calça jeans masculina',category:'Calças',price:119.90,description:'Modelo demonstrativo. Cadastre suas fotos e informações.',image:'',active:true}
+{id:1,name:'Polo masculina azul-marinho',category:'Polos',price:110.00,description:'Polo masculina azul-marinho. Tamanho G.',image:'',active:true},
+{id:2,name:'Conjunto esportivo preto',category:'Conjuntos',price:65.00,description:'Conjunto esportivo preto. Tamanho G.',image:'',active:true},
+{id:3,name:'Camiseta marrom',category:'Camisetas',price:70.00,description:'Camiseta masculina marrom. Tamanho G.',image:'',active:true}
 ];
 let products=JSON.parse(localStorage.getItem(KEY)||'null')||seed, cart=JSON.parse(localStorage.getItem(CART)||'[]'), settings=JSON.parse(localStorage.getItem(SETTINGS)||'{"pin":"1234"}'), activeCategory='Todos';
 const STORE_CATEGORIES=['Camisetas','Bermudas','Calças','Conjuntos','Acessórios'];
