@@ -1,0 +1,31 @@
+NA BEKA — CATÁLOGO ONLINE
+
+CONTEÚDO
+- Catálogo responsivo para celular e computador.
+- Categorias: Camisetas, Bermudas, Calças, Conjuntos e Acessórios.
+- Busca e filtros por categoria.
+- Sacola com ajuste de quantidades e total automático.
+- Finalização de pedido pelo WhatsApp, com escolha entre Gabriel, Lip e Juba.
+- Pagamento combinado diretamente no WhatsApp.
+- Painel para cadastrar, editar, ocultar/publicar e excluir produtos.
+- Upload de foto do produto no navegador.
+
+CONTATOS CONFIGURADOS
+Gabriel: (87) 98114-8797
+Lip: (87) 98148-3071
+Juba: (87) 98866-6048
+
+COMO TESTAR
+Abra o arquivo index.html no navegador. O PIN inicial demonstrativo do painel é 1234.
+Troque o PIN no painel depois de entrar.
+
+COMO PUBLICAR NA NETLIFY
+1. Extraia este ZIP.
+2. Entre na sua conta Netlify e abra o site nabeka.
+3. Acesse Deploys.
+4. Faça o upload manual da pasta na_beka_site (a pasta que contém index.html e as imagens).
+
+IMPORTANTE — LIMITAÇÕES DA VERSÃO
+Esta é uma versão demonstrativa estática. Produtos, imagens, carrinho e PIN ficam armazenados no navegador (localStorage); não existe banco de dados, login seguro no servidor ou sincronização entre aparelhos. O PIN não protege o site contra acesso técnico. As fotos carregadas ficam no navegador e podem ocupar espaço. Para operação comercial real, será necessário integrar backend, banco de dados, armazenamento de imagens e autenticação segura. Não use esta versão para armazenar dados sensíveis.
+
+A loja não recebe pagamentos no site. O cliente envia o pedido para um dos três contatos e combina pagamento, disponibilidade e entrega pelo WhatsApp.
